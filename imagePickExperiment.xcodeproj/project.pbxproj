@@ -13,6 +13,11 @@
 		B3925B671B87AABC009BA428 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3925B661B87AABC009BA428 /* Images.xcassets */; };
 		B3925B6A1B87AABC009BA428 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3925B681B87AABC009BA428 /* LaunchScreen.xib */; };
 		B3925B761B87AABC009BA428 /* imagePickExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3925B751B87AABC009BA428 /* imagePickExperimentTests.swift */; };
+		B3925B821B87EEE4009BA428 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3925B811B87EEE4009BA428 /* Meme.swift */; };
+		B3E850FE1B8E118900703906 /* SentMemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E850FD1B8E118900703906 /* SentMemesTableViewController.swift */; };
+		B3E851001B8E119D00703906 /* SentMemesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E850FF1B8E119D00703906 /* SentMemesCollectionViewController.swift */; };
+		B3E851061B8E22EE00703906 /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E851051B8E22EE00703906 /* MemeCollectionViewCell.swift */; };
+		B3E851081B8E4A8E00703906 /* MemeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E851071B8E4A8E00703906 /* MemeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		B3925B6F1B87AABC009BA428 /* imagePickExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imagePickExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3925B741B87AABC009BA428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3925B751B87AABC009BA428 /* imagePickExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePickExperimentTests.swift; sourceTree = "<group>"; };
+		B3925B811B87EEE4009BA428 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		B3E850FD1B8E118900703906 /* SentMemesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentMemesTableViewController.swift; sourceTree = "<group>"; };
+		B3E850FF1B8E119D00703906 /* SentMemesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentMemesCollectionViewController.swift; sourceTree = "<group>"; };
+		B3E851051B8E22EE00703906 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3E851071B8E4A8E00703906 /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 			children = (
 				B3925B5F1B87AABC009BA428 /* AppDelegate.swift */,
 				B3925B611B87AABC009BA428 /* ViewController.swift */,
+				B3E850FD1B8E118900703906 /* SentMemesTableViewController.swift */,
+				B3E850FF1B8E119D00703906 /* SentMemesCollectionViewController.swift */,
+				B3E851071B8E4A8E00703906 /* MemeDetailViewController.swift */,
+				B3E851051B8E22EE00703906 /* MemeCollectionViewCell.swift */,
+				B3925B811B87EEE4009BA428 /* Meme.swift */,
 				B3925B631B87AABC009BA428 /* Main.storyboard */,
 				B3925B661B87AABC009BA428 /* Images.xcassets */,
 				B3925B681B87AABC009BA428 /* LaunchScreen.xib */,
@@ -212,6 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E851061B8E22EE00703906 /* MemeCollectionViewCell.swift in Sources */,
+				B3925B821B87EEE4009BA428 /* Meme.swift in Sources */,
+				B3E850FE1B8E118900703906 /* SentMemesTableViewController.swift in Sources */,
+				B3E851001B8E119D00703906 /* SentMemesCollectionViewController.swift in Sources */,
+				B3E851081B8E4A8E00703906 /* MemeDetailViewController.swift in Sources */,
 				B3925B621B87AABC009BA428 /* ViewController.swift in Sources */,
 				B3925B601B87AABC009BA428 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +429,7 @@
 				B3925B7B1B87AABC009BA428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3925B7C1B87AABC009BA428 /* Build configuration list for PBXNativeTarget "imagePickExperimentTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				B3925B7E1B87AABC009BA428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
