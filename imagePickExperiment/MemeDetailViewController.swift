@@ -16,7 +16,7 @@ class MemeDetailViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         
-       self.detailView.image = recievedMeme.memedImage
+       self.detailView.image = recievedMeme.memedImage as UIImage
         
         
     }

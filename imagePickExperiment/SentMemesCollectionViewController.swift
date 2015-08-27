@@ -78,7 +78,7 @@ class SentMemesCollectionViewController: UICollectionViewController , UICollecti
     override func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
         
         let detailController = self.storyboard!.instantiateViewControllerWithIdentifier("MemeDetailViewController") as! MemeDetailViewController
-        detailController.recievedMeme = self.memes[indexPath.row] as! Meme
+        detailController.recievedMeme = self.memes[indexPath.row] as Meme
         self.navigationController!.pushViewController(detailController, animated: true)
         
         }
